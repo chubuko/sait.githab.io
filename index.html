@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+</head>
+<body>
+ <header>
+    <div class="container" >
+       
+            <div class="header_logo">
+                <img src="img/image 1.png" alt="logo">
+                <p class="logo">Сделаем <br>лучше вместе!</p>
+            </div>
+            
+            <div class="header_btn">
+                <input type="button" onclick="reg();" value="Регистрация" class="header_reg">
+                <input type="button" onclick="avt();" value="Авторизация" class="header_auth">
+            </div>
+
+            <script>
+                    function reg(){
+                        window.location.href="reg.html"
+                    }
+                    function avt(){
+                        window.location.href="avtor.html"
+                    }
+            </script>
+
+        </header>
+        <main>
+    
+            <div class="main_title">
+                <h1>Всего месяц, а мы столько всего успели</h1>
+            </div>
+     <div class="gallery">
+        <div class="photo1">
+            <p><img src="img/image 2.png" alt="gallery" ></p>
+            <p class="text1">12.01.23 <br> Субботник в парке горького<br>Поддержка частоты на улицах</p>
+        </div>
+        <div class="photo1">
+            <p><img src="img/image 3.png" alt="gallery" ></p>
+            <p class="text1"> 05.01.23 <br>Оперативный ремонт дороги по заявке<br>Ямочный ремонт дорог </p>
+        </div>
+        <div class="photo1">
+            <p> <img src="img/image 4.png" alt="gallery" ></p>
+            <p class="text1">26.01.23<br>Открытие новой городской поликлиники<br>Налаживание инфраструктуры</p>
+        </div>
+     </div>
+
+            <div class="main_request_counter" id="app" >
+                 <p class="kk" v-on:click="double" onclick="new Audio('au/dstpl.mp3').play()">Количество решенных заявок</p>
+            
+                 <p class="num">{{ number }}</p>
+            </div>
+
+
+
+                
+           
+        
+
+<script>
+            let vm = {
+                data(){
+                    return{
+                        number: 1
+                    }
+                },
+                methods:{
+                    double: function(event){
+                        this.number += 1;
+                    }
+                }
+            }
+            Vue.createApp(vm).mount("#app")
+
+</script>
+
+
+
+
+
+
+        </main>
+    </div>
+</body>
+</html>

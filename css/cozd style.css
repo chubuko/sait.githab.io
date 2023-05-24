@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 1200px;
+    background: #ffffff;
+    margin: 0 auto;
+}
+main{
+    width:  1200px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+
+    display: flex;
+    justify-content: center;
+    color: #000000;
+    margin: 80px 0;
+
+}
+.form{
+    width: 702px;
+    height: 934px;
+    display: flex;
+    padding-top: 100px;
+    align-items: center;
+    flex-direction: column;
+    background: #D9D9D9;
+
+    
+}
+.header_logo{
+    width: 348px;
+    height: 87px;
+    display:flex;
+    justify-content: space-evenly;
+
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #000000;
+}
+
+
+
+img{
+    width: 77px;
+    height: 78px;
+   
+}
+h1{
+    width: 227px;
+    height: 38px;
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+
+    padding-top: 25px;
+    padding-bottom: 25px;
+     
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #000000;
+
+}
+.input-form{
+    width: 443px;
+    height: 90px;
+    
+
+}
+input{
+    width: 443px;
+    height: 48px;
+
+    border: none;
+    background: #FFFFFF;
+    border-radius: 85px;
+}
+.di{
+    width: 443px;
+    height: 120px;
+}
+.select{
+    width: 443px;
+    height: 48px;
+
+    text-align: center;
+
+    border: none;
+    background: #FFFFFF;
+    border-radius: 85px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #000000;
+}
+
+
+.o{
+    text-align: center;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #000000;
+}
+
+.op{
+    text-align: center;
+
+    width: 443px;
+    height: 77px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #000000;
+}
+
+.kat{
+    width: 443px;
+    height: 93px;
+}
+.re{
+    width: 443px;
+    height: 224px;
+}
+.photo{
+    text-align: center;
+    width: 443px;
+    height: 193px;
+    border-radius: 0px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #000000;
+}
+.ff{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+button{
+ 
+    width: 334px;
+    height: 58px;
+
+    margin-top: 15px;  
+    
+    background: #FF4343;
+    border-radius: 68.5px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+
+    border: none;
+}
+.avtocont{
+    width: 443px;
+    height: 605px;
+}
